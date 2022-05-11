@@ -106,7 +106,7 @@ def train_pipeline(config_path: str) -> Tuple[str, List[float]]:
 #@click.argument('config_path')
 #def train_pipeline_command(config_path: str):
 #    train_pipeline(config_path)
-config_path = 'configs/forest_train_config.yaml'
+config_path = 'ml_project/configs/forest_train_config.yaml'
 train_pipeline(config_path)
 
 #if __name__ == '__main__':

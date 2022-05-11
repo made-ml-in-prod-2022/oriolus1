@@ -46,7 +46,7 @@ def predict_pipeline(config_path: str) -> str:
 #@click.argument('config_path')
 #def train_pipeline_command(config_path: str):
 #    train_pipeline(config_path)
-config_path = 'configs/predict_config.yaml'
+config_path = 'ml_project/configs/predict_config.yaml'
 predict_pipeline(config_path)
 
 #if __name__ == '__main__':
