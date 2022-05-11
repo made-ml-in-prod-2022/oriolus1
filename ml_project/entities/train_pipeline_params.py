@@ -1,7 +1,7 @@
 from dataclasses import dataclass
-from .splitting_params import SplittingParams
-from .training_params import TrainingParams
-from .feature_params import FeatureParams
+from splitting_params import SplittingParams
+from training_params import TrainingParams
+from feature_params import FeatureParams
 from marshmallow_dataclass import class_schema
 import yaml
 
