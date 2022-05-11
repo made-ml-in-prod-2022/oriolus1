@@ -12,14 +12,14 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.compose import ColumnTransformer
 from ml_project.custom_transformer import CustomTransformer
 
-from data.make_dataset import read_data, split_train_val_data
-from entities.train_pipeline_params import (
+from ml_project.data.make_dataset import read_data, split_train_val_data
+from ml_project.entities.train_pipeline_params import (
     TrainingPipelineParams,
     read_training_pipeline_params,
 )
 #from features import make_features
 #from features.build_features import extract_target, build_transformer
-from models.model_fit_predict import (
+from ml_project.models.model_fit_predict import (
     train_model,
     create_inference_pipeline,
     predict_model,

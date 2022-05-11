@@ -9,12 +9,12 @@ import pandas as pd
 import pickle
 
 
-from entities.predict_pipeline_params import (
+from ml_project.entities.predict_pipeline_params import (
     PredictingPipelineParams,
     read_predicting_pipeline_params,
 )
 
-from models.model_fit_predict import predict_model
+from ml_project.models.model_fit_predict import predict_model
 
 logger = logging.getLogger(__name__)
 handler = logging.StreamHandler(sys.stdout)
