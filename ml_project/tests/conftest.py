@@ -1,6 +1,6 @@
 import pandas as pd
 from faker import Faker
-from entities.splitting_params import SplittingParams
+from .entities.splitting_params import SplittingParams
 import pytest
 
 TEST_SIZE = 100
