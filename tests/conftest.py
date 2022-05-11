@@ -1,13 +1,13 @@
 import pandas as pd
 from faker import Faker
-from .entities.splitting_params import SplittingParams
+from ml_project.entities.splitting_params import SplittingParams
 import pytest
 
 TEST_SIZE = 100
 
 @pytest.fixture()
 def input_data_path() -> str:
-    return 'data/raw/heart_cleveland_upload.csv'
+    return 'ml_project/data/raw/heart_cleveland_upload.csv'
 
 
 @pytest.fixture()
@@ -49,9 +49,9 @@ def splitting_params() -> SplittingParams:
 
 @pytest.fixture()
 def config_path() -> str:
-    return 'configs/forest_train_config.yaml'
+    return 'ml_project/configs/forest_train_config.yaml'
 
 
 @pytest.fixture()
 def predict_config_path() -> str:
-    return 'configs/predict_config.yaml'
+    return 'ml_project/configs/predict_config.yaml'
