@@ -10,7 +10,7 @@ import pandas as pd
 
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.compose import ColumnTransformer
-from custom_transformer import CustomTransformer
+from ml_project.custom_transformer import CustomTransformer
 
 from data.make_dataset import read_data, split_train_val_data
 from entities.train_pipeline_params import (
