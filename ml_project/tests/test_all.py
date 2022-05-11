@@ -4,9 +4,9 @@ import numpy as np
 #import sys
 #sys.path.append('../')
 
-from data.make_dataset import read_data, split_train_val_data
-from train_pipeline import train_pipeline
-from predict_pipeline import predict_pipeline
+from .data.make_dataset import read_data, split_train_val_data
+from .train_pipeline import train_pipeline
+from .predict_pipeline import predict_pipeline
 
     
 def test_read_data(input_data_path):
