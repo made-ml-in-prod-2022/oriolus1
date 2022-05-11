@@ -9,7 +9,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import precision_score, recall_score, accuracy_score
 from sklearn.pipeline import Pipeline
 
-from entities.training_params import TrainingParams
+from ml_project.entities.training_params import TrainingParams
 
 SklearnClfModel = Union[RandomForestClassifier, LogisticRegression]
 
