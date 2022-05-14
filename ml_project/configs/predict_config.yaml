@@ -1,0 +1,3 @@
+input_data_path: 'ml_project/data/for_testing/fake_data.csv'
+input_model_path: 'ml_project/models/model.pkl'
+output_predictions_path: 'ml_project/data/predictions/predictions.csv'
